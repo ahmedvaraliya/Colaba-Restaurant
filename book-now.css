@@ -124,8 +124,8 @@ footer {
   padding: 20px;
  /* position: fixed; */
   /* width: 100%; */
-    width: 1216px;
-  width: 1209px;
+/*     width: 1216px; */
+/*   width: 1209px; */
  /* bottom: 0; */
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
