@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exciting New Services Launched! | Hotel XYZ</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .service-section {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-section h2 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .service {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .service img {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+
+        .service-details {
+            margin-left: 20px;
+            flex: 1;
+        }
+
+        .service-details h3 {
+            font-size: 28px;
+            color: #28a745;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .service-details p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .service-details a {
+            font-size: 18px;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .service-details a:hover {
+            text-decoration: underline;
+        }
+
+        /* Button Styling */
+        .cta-button {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .cta-button a {
+            background-color: #007bff;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+        }
+
+        .cta-button a:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Main Section -->
+<div class="container">
+
+    <!-- Section Title -->
+    <div class="service-section">
+        <h2>Exciting New Services Launched at Hotel XYZ!</h2>
+
+        <!-- Service 1: Spa and Wellness -->
+        <div class="service">
+            <img src="spa-1.jpg" alt="Spa">
+            <div class="service-details">
+                <h3>Luxury Spa and Wellness</h3>
+                <p>Relax and rejuvenate with our luxurious spa treatments. From massages to wellness therapies, experience ultimate relaxation at Hotel XYZ.</p>
+                <a href="#spa-details">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Service 2: Fine Dining Restaurant -->
+        <div class="service">
+            <img src="fine-dininig.jpg" alt="Fine Dining">
+            <div class="service-details">
+                <h3>Exclusive Fine Dining</h3>
+                <p>Indulge in exquisite cuisine crafted by world-class chefs. Our fine dining restaurant offers a variety of international delicacies.</p>
+                <a href="#dining-details">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Service 3: Event Hosting & Banquets -->
+        <div class="service">
+            <img src="Hotel-Event.jpg">
+            <div class="service-details">
+                <h3>Event Hosting & Banquets</h3>
+                <p>Whether it’s a wedding, corporate event, or a private celebration, our spacious banquet halls are perfect for all occasions.</p>
+                <a href="#banquet-details">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Call to Action Button -->
+        <div class="cta-button">
+            <a href="#contact-us">Book Your Stay Now!</a>
+        </div>
+    </div>
+
+    <!-- Service Details (can be linked from Learn More links) -->
+
+    <!-- Spa and Wellness Details -->
+    <div id="spa-details" class="service-section">
+        <h2>Luxury Spa and Wellness</h2>
+        <p>Our luxurious spa services include a variety of massages, skincare treatments, and wellness therapies. Enjoy a soothing and relaxing experience with our expert therapists.</p>
+        <p>Services Include:</p>
+        <ul>
+            <li>Full Body Massage</li>
+            <li>Facials and Skin Treatments</li>
+            <li>Couples Massage Packages</li>
+            <li>Rejuvenating Wellness Packages</li>
+        </ul>
+        <a href="#contact-us" class="cta-button">Book a Spa Appointment</a>
+    </div>
+
+    <!-- Fine Dining Details -->
+    <div id="dining-details" class="service-section">
+        <h2>Exclusive Fine Dining</h2>
+        <p>Our fine dining restaurant offers a selection of gourmet dishes, from continental to Asian cuisine. Experience luxury dining with top-notch service in a serene atmosphere.</p>
+        <p>Our Menu Includes:</p>
+        <ul>
+            <li>Signature Starters</li>
+            <li>World-Class Mains</li>
+            <li>Exquisite Desserts</li>
+            <li>Wine Pairing and Cocktails</li>
+        </ul>
+        <a href="#contact-us" class="cta-button">Reserve a Table</a>
+    </div>
+
+    <!-- Event Hosting & Banquets Details -->
+    <div id="banquet-details" class="service-section">
+        <h2>Event Hosting & Banquets</h2>
+        <p>Our hotel features a range of banquet halls and event spaces for any occasion. From weddings to corporate meetings, we provide impeccable service and a stunning setting.</p>
+        <p>Event Services Include:</p>
+        <ul>
+            <li>Custom Event Planning</li>
+            <li>Catering Services</li>
+            <li>Audio/Visual Equipment</li>
+            <li>Decor and Theme Customization</li>
+        </ul>
+        <a href="#contact-us" class="cta-button">Book Your Event</a>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact-us" class="service-section">
+        <h2>Contact Us</h2>
+        <p>If you're interested in any of our new services or would like to book a room, feel free to contact us. We're here to assist you with any requests!</p>
+        <a href="mailto:info@hotelxyz.com" class="cta-button">Email Us</a>
+    </div>
+
+</div>
+
+<!-- Bootstrap JS & jQuery (needed for Modal or additional interactivity) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

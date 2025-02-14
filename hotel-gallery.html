@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Gallery</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .gallery-section {
+            margin-top: 50px;
+            text-align: center;
+        }
+        
+        .gallery-section h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        
+        .gallery-section .gallery-item {
+            margin: 15px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .gallery-section .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .gallery-section img {
+            width: 100%;
+            height: 250px;
+            display: block;
+        }
+        
+        .gallery-section .description {
+            padding: 15px;
+            background-color: #f8f8f8;
+            border-top: 1px solid #ddd;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hotel Gallery Section -->
+    <div class="container gallery-section">
+        <h2>Explore Our Hotel Gallery</h2>
+        <p>Take a virtual tour of our hotel and discover the luxurious spaces waiting for you. From cozy rooms to relaxing spa areas, enjoy a sneak peek of our hotel’s best features.</p>
+
+        <div class="row">
+            <!-- Gallery Item 1 -->
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="deluxe-room.jpg" alt="Room">
+                    <div class="description">
+                        <p><strong>Deluxe Room</strong></p>
+                        <p>Enjoy comfort and elegance in our Deluxe Rooms with stunning views and modern amenities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Item 2 -->
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="spa-1.jpg" alt="Spa">
+                    <div class="description">
+                        <p><strong>Spa & Wellness</strong></p>
+                        <p>Relax and unwind at our world-class spa offering a range of rejuvenating treatments.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Item 3 -->
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="fine-dininig.jpg" alt="Restaurant">
+                    <div class="description">
+                        <p><strong>Fine Dining</strong></p>
+                        <p>Experience exquisite cuisine at our in-house restaurant, offering both local and international flavors.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Gallery Item 4 -->
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="hotel-lobby.jpg" alt="Lobby">
+                    <div class="description">
+                        <p><strong>Hotel Lobby</strong></p>
+                        <p>Our elegant lobby welcomes you with a sophisticated ambiance and luxurious interiors.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Item 5 -->
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="swimingpull.jpg" alt="Pool">
+                    <div class="description">
+                        <p><strong>Swimming Pool</strong></p>
+                        <p>Enjoy a refreshing swim in our outdoor pool with scenic views of the city skyline and expensive place.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Item 6 -->
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="Conference Room.jpeg" alt="Conference Room">
+                    <div class="description">
+                        <p><strong>Conference Room</strong></p>
+                        <p>Our state-of-the-art conference room is perfect for business events, meetings, and conferences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS & jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
