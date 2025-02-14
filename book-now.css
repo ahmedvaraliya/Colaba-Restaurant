@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #0044cc;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+/* Images Section */
+.images {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.images h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-container img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Description Section */
+.description {
+  margin: 40px 20px;
+  font-size: 1.1em;
+}
+
+.description h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.description h3 {
+  font-size: 1.8em;
+  margin-top: 30px;
+}
+
+.description ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.description li {
+  margin: 10px 0;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background-color: #ececec;
+  padding: 20px;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  font-style: italic;
+  margin: 10px 0;
+}
+
+/* CTA Section */
+.cta {
+  background-color: #0044cc;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.cta h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.cta button {
+  background-color: #ff7f50;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cta button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
