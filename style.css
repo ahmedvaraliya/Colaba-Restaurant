@@ -50,7 +50,7 @@ nav ul li a:hover {
 /* Hero section with background image */
 .hero-container {
   background-image: url('colaba.webp'); 
-  background-image: url('restuarant.jpg'); 
+/*   background-image: url('restuarant.jpg');  */
   background-size: cover;
   background-position: center;
   padding: 6rem 1rem;
