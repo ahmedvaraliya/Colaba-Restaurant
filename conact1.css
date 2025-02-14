@@ -1,0 +1,315 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and basic layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: tan;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+/* Navigation */
+ul {
+  list-style-type: none;
+  margin-top: 1rem;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form */
+.contact-form {
+  width: 100%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.contact-form h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact-form button {
+  background-color: #ff6f00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ff6f00;
+  opacity: 0.9;
+}
+
+/* Instructions Section */
+.contact-instructions {
+  width: 100%;
+  padding: 4px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+  margin-top: 2rem;
+}
+
+.contact-instructions h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-instructions p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.contact-instructions ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.contact-instructions ul li {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.contact-instructions address {
+  font-style: normal;
+  margin-top: 1rem;
+  line-height: 1.5;
+  color: #555555;
+}
+
+.href {
+  text-decoration: none;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+  margin-top: 19px;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Small Devices (Mobile Phones in Portrait Mode) */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .contact-form, .contact-instructions {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-form h2, .contact-instructions h2 {
+    font-size: 1.6rem;
+  }
+
+  .contact-form input, .contact-form textarea {
+    font-size: 14px;
+  }
+
+  .contact-form button {
+    font-size: 1rem;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile Landscape or Small Tablets */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .contact-form, .contact-instructions {
+    width: 100%;
+  }
+
+  .contact-form h2, .contact-instructions h2 {
+    font-size: 1.8rem;
+  }
+
+  .contact-form input, .contact-form textarea {
+    font-size: 15px;
+  }
+
+  .contact-form button {
+    font-size: 1.1rem;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+}
+
+
+
+/* Large Tablets to Small Desktops */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contact-form {
+    /* display: flex; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+    /* margin-left: 250px; */
+    width: 100%;
+  }
+
+  /* .contact-form, .contact-instructions {
+    width: 48%; 
+  } */
+  .contact-form h2 {
+text-align: center;
+  }
+  .contact-instructions h2 {
+    font-size: 2.5rem;
+    /* margin-left: 250px; */
+    width: 100%;
+  }
+
+  .contact-form button {
+    font-size: 1.3rem;
+  }
+}
+
+/* Large Desktops */
+@media (min-width: 1025px) and (max-width: 1500px) {
+  .contact-form {
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 2rem;
+    /* margin-left: 250px; */
+    width: 100%;
+  }
+
+  /* .contact-form, .contact-instructions {
+    width: 48%; 
+  } */
+
+  .contact-form h2, .contact-instructions h2 {
+    font-size: 2.5rem;
+    /* margin-left: 250px;
+    width: 60%; */
+  }
+
+  .contact-form button {
+    font-size: 1.4rem;
+  }
+
+  footer p {
+    font-size: 1.1rem;
+  }
+}
+
+/* Large Desktops and HD Monitors */
+@media (min-width: 1501px) {
+  .contact-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10%;
+    margin-left: 250px;
+    width: 100%;
+  }
+/* 
+  .contact-form, .contact-instructions {
+    width: 48%;
+  } */
+
+  .contact-form h2, .contact-instructions h2 {
+    font-size: 2.5rem;
+    /* margin-left: 250px;
+    width: 60%; */
+  }
+
+  .contact-form button {
+    font-size: 1.5rem;
+  }
+
+  footer p {
+    font-size: 1.2rem;
+  }
+}
