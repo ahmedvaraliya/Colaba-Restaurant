@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grab These Offers Now</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .cta-button {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .cta-button a {
+            background-color: #007bff;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button a:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Call to Action -->
+    <div class="cta-button">
+        <h2>Exclusive Deals Just for You!</h2>
+        <p>Take advantage of our amazing offers and save on your next stay. Limited-time discounts available. Click below to grab your offer!</p>
+        <a href="#" data-toggle="modal" data-target="#offerModal" class="cta-button-link">Grab These Offers Now!</a>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="offerModal" tabindex="-1" role="dialog" aria-labelledby="offerModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="offerModalLabel">Special Offer Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>We appreciate your interest in our hotel! Take a look at our current offers and book your stay at an exclusive discount. These limited-time deals are waiting for you:</p>
+                    <ul>
+                        <li><strong>20% Off Early Booking Discount:</strong> Plan ahead and save!</li>
+                        <li><strong>Family Stay Package:</strong> Enjoy free meals for kids with our family-friendly deals.</li>
+                        <li><strong>Weekend Getaway Specials:</strong> Book a weekend stay at unbeatable rates.</li>
+                        <li><strong>Romantic Retreat:</strong> Special discounts for couples looking to unwind in a peaceful setting.</li>
+                    </ul>
+                    <p>Ready to book? Simply click on the "Proceed to Booking" button below and reserve your spot!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a href="https://yourwebsite.com/booking-page" class="btn btn-primary">Proceed to Booking</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS & jQuery (needed for Modal) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
